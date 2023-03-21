@@ -6,6 +6,8 @@
   "source": "http://dist.schmorp.de/libev/Attic/libev-4.27.tar.gz#b67aff18f6f1ffec4422e188c98d9fe458c5ed0b",
   "override": {
     "build": [
+      [ "env" ],
+      [ "false" ],
       [
         "bash",
         "-c",
